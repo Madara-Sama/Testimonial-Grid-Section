@@ -1,7 +1,124 @@
-.grid-container{
-    display:grid;
+body{
+    margin: 80px ;
+    background-color: hsl(210, 46%, 95%);
 }
 
-body{
-    background-color: aqua;
+.container{
+    display: grid;
+    // grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
+    grid-template-rows: [row1-start] 287px [row1-end] 260px [third-line] ;
+    column-gap: 28px;
+    grid-row-gap: 24px;
+    font-size: 13px;
+    font-family: 'Barlow Semi Condensed';
+    justify-items: stretch;
+    height: 600px;
+    width: 1138px;
 }
+
+ .daniel{
+    //  grid-column: 1/ span 3;
+    //  grid-row: 1;
+    //  grid-area: 50px;
+    //  justify-items: stretch;
+    //  justify-self: stretch;
+     grid-column: 1/ span 2;
+    //  padding: 26px 20px 20px 30px;
+     border-radius: 8px;
+     background-color: hsl(263, 55%, 52%);
+     color: white;
+     background-image: url(../images/bg-pattern-quotation.svg);
+     background-position: top;
+     background-repeat: no-repeat;
+     background-position-x: 81%;
+     box-shadow: 0px 25px 70px -58px hsl(0, 0%, 81%);
+    }
+ .daniel img{
+        box-shadow: 0px 0px 0px 2px hsl(263, 60%, 62%);
+
+    }
+
+ .jeanette{
+    //  grid-row: 2/4;
+     border-radius: 8px;
+    //  padding:  26px 34px 20px 34px;
+     background-color: hsl(0, 0%, 100%);
+     }  
+ .kira{
+    //  grid-column: 5;
+    //  grid-row: 1/ span 2;
+    grid-column: 4;
+    grid-row: 1/ span 2;
+     border-radius: 8px;
+     padding:  20px 34px 20px 30px;
+     background-color: hsl(0, 0%, 100%);
+    box-shadow: 20px 20px 20px hsl(0, 0%, 81%);
+    }
+ .jonathan{
+     border-radius: 8px;
+    //  padding:  26px 34px 20px 34px;
+     background-color: hsl(217, 19%, 35%);
+     color: white;}
+ .patrick{
+     grid-column: 2/ span 2;
+     border-radius: 8px;
+    //  padding:  26px 34px 20px 34px;
+     background-color:  hsl(219, 29%, 14%);
+     color: white;}   
+ .patrick img{
+        box-shadow: 0px 0px 0px 2px hsl(263, 55%, 52%);
+    }
+   
+  .daniel,.jeanette,.jonathan,.patrick{
+      padding: 20px 30px 20px 30px;
+  }             
+ .name{
+    margin:-34px 0 0 46px;
+ }   
+
+ .designation{
+    margin: -3px 0 0 46px;
+    opacity: 50%;
+    font-size: 11px;
+ }
+ img{
+     border-radius: 50%;
+     width: 30px;
+ }
+ h2{
+     font-weight: 600;
+     line-height: 25px;
+    //  letter-spacing: 1px;
+ }
+
+
+ p{
+     font-weight: 500;
+     line-height: 19px;
+ }
+
+ .content-summary{
+     padding-top: 2px;
+     opacity: 70%;
+ }
+
+ .attribution { 
+     font-size: 11px; 
+     text-align: center; 
+     margin-top: 10px;
+ }
+ .attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+//  .name::after{
+//      content: url(../images/bg-pattern-quotation.svg);
+//      position: absolute;
+//     //  content: "";
+//     //  inset: 0;
+//     //  background: url(../images/bg-pattern-quotation.svg) no-repeat;
+//  }
+
+// .daniel-content{
+//     background: url(../images/bg-pattern-quotation.svg) no-repeat ;
+// }

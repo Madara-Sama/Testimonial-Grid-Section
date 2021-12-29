@@ -1,1 +1,124 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+body {
+  margin: 80px;
+  background-color: #ecf2f8;
+}
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
+      grid-template-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
+  -ms-grid-rows: [row1-start] 287px [row1-end] 260px [third-line];
+      grid-template-rows: [row1-start] 287px [row1-end] 260px [third-line];
+  -webkit-column-gap: 28px;
+          column-gap: 28px;
+  grid-row-gap: 24px;
+  font-size: 13px;
+  font-family: 'Barlow Semi Condensed';
+  justify-items: stretch;
+  height: 600px;
+  width: 1138px;
+}
+
+.daniel {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/ span 2;
+  border-radius: 8px;
+  background-color: #7541c8;
+  color: white;
+  background-image: url(../images/bg-pattern-quotation.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position-x: 81%;
+  -webkit-box-shadow: 0px 25px 70px -58px #cfcfcf;
+          box-shadow: 0px 25px 70px -58px #cfcfcf;
+}
+
+.daniel img {
+  -webkit-box-shadow: 0px 0px 0px 2px #9164d8;
+          box-shadow: 0px 0px 0px 2px #9164d8;
+}
+
+.jeanette {
+  border-radius: 8px;
+  background-color: white;
+}
+
+.kira {
+  -ms-grid-column: 4;
+  grid-column: 4;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  grid-row: 1/ span 2;
+  border-radius: 8px;
+  padding: 20px 34px 20px 30px;
+  background-color: white;
+  -webkit-box-shadow: 20px 20px 20px #cfcfcf;
+          box-shadow: 20px 20px 20px #cfcfcf;
+}
+
+.jonathan {
+  border-radius: 8px;
+  background-color: #48556a;
+  color: white;
+}
+
+.patrick {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-column: 2/ span 2;
+  border-radius: 8px;
+  background-color: #19212e;
+  color: white;
+}
+
+.patrick img {
+  -webkit-box-shadow: 0px 0px 0px 2px #7541c8;
+          box-shadow: 0px 0px 0px 2px #7541c8;
+}
+
+.daniel, .jeanette, .jonathan, .patrick {
+  padding: 20px 30px 20px 30px;
+}
+
+.name {
+  margin: -34px 0 0 46px;
+}
+
+.designation {
+  margin: -3px 0 0 46px;
+  opacity: 50%;
+  font-size: 11px;
+}
+
+img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  line-height: 25px;
+}
+
+p {
+  font-weight: 500;
+  line-height: 19px;
+}
+
+.content-summary {
+  padding-top: 2px;
+  opacity: 70%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
