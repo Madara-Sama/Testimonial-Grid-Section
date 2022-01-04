@@ -32,7 +32,7 @@ body{
      background-position: top;
      background-repeat: no-repeat;
      background-position-x: 81%;
-     box-shadow: 0px 25px 70px -58px hsl(0, 0%, 81%);
+     box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
     }
  .daniel img{
         box-shadow: 0px 0px 0px 2px hsl(263, 60%, 62%);
@@ -44,6 +44,8 @@ body{
      border-radius: 8px;
     //  padding:  26px 34px 20px 34px;
      background-color: hsl(0, 0%, 100%);
+     box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
+
      }  
  .kira{
     //  grid-column: 5;
@@ -53,19 +55,25 @@ body{
      border-radius: 8px;
      padding:  20px 34px 20px 30px;
      background-color: hsl(0, 0%, 100%);
-    box-shadow: 20px 20px 20px hsl(0, 0%, 81%);
+     box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
     }
  .jonathan{
      border-radius: 8px;
     //  padding:  26px 34px 20px 34px;
      background-color: hsl(217, 19%, 35%);
-     color: white;}
+     color: white;
+     box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
+
+    }
  .patrick{
      grid-column: 2/ span 2;
      border-radius: 8px;
     //  padding:  26px 34px 20px 34px;
      background-color:  hsl(219, 29%, 14%);
-     color: white;}   
+     color: white;
+     box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
+
+    }   
  .patrick img{
         box-shadow: 0px 0px 0px 2px hsl(263, 55%, 52%);
     }
@@ -111,14 +119,54 @@ body{
  .attribution a { 
      color: hsl(228, 45%, 44%); 
 }
-//  .name::after{
-//      content: url(../images/bg-pattern-quotation.svg);
-//      position: absolute;
-//     //  content: "";
-//     //  inset: 0;
-//     //  background: url(../images/bg-pattern-quotation.svg) no-repeat;
-//  }
 
-// .daniel-content{
-//     background: url(../images/bg-pattern-quotation.svg) no-repeat ;
-// }
+@media only screen and (max-width:800px) and (min-width:375px) {
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        width: 321px;
+        margin: auto;
+    }
+    body{
+        margin: auto;
+        padding-top: 50px;
+    }
+     .daniel{
+         grid-column: 1;
+         grid-row: 1;
+         padding: 20px 36px 20px 30px;
+     }
+     .daniel>.content-summary{
+         letter-spacing: 0.01em;
+     }
+     .jonathan{
+         grid-column: 1;
+         grid-row: 2;
+     }
+     .jeanette{
+         grid-column: 1;
+         grid-row: 3;
+     }
+     .patrick{
+         grid-column: 1;
+         grid-row: 4;
+     }
+     .kira{
+         grid-column: 1;
+         grid-row: 5;
+     }
+     .kira>.content-summary{
+         letter-spacing: 0.02em;
+     }
+     .attribution{
+         margin-top: 85rem;
+     }
+    //  .daniel,.jeanette,.jonathan,.patrick{
+    //   padding: 20px 30px 20px 30px;
+    //  }
+     .content-summary{
+         padding-top: 0px;
+     }  
+
+}
