@@ -27,7 +27,7 @@ body {
   border-radius: 8px;
   background-color: #7541c8;
   color: white;
-  background-image: url(../images/bg-pattern-quotation.svg);
+  background-image: url(./images/bg-pattern-quotation.svg);
   background-position: top;
   background-repeat: no-repeat;
   background-position-x: 81%;
