@@ -7,7 +7,7 @@ body{
     display: grid;
     // grid-template-columns: auto auto auto auto auto;
     grid-template-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
-    grid-template-rows: [row1-start] 287px [row1-end] 260px [third-line] ;
+    grid-template-rows: [row1-start] 287px [row1-end] 264px [third-line] ;
     column-gap: 28px;
     grid-row-gap: 24px;
     font-size: 13px;
@@ -58,6 +58,9 @@ body{
      background-color: hsl(0, 0%, 100%);
      box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
     }
+ .kira>.content-summary{
+     padding-top: 8px;
+ }
  .jonathan{
      border-radius: 8px;
     //  padding:  26px 34px 20px 34px;
@@ -108,7 +111,7 @@ body{
  }
 
  .content-summary{
-     padding-top: 2px;
+    //  padding-top: 2px;
      opacity: 70%;
  }
 

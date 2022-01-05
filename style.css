@@ -8,8 +8,8 @@ body {
   display: grid;
   -ms-grid-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
       grid-template-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
-  -ms-grid-rows: [row1-start] 287px [row1-end] 260px [third-line];
-      grid-template-rows: [row1-start] 287px [row1-end] 260px [third-line];
+  -ms-grid-rows: [row1-start] 287px [row1-end] 264px [third-line];
+      grid-template-rows: [row1-start] 287px [row1-end] 264px [third-line];
   -webkit-column-gap: 28px;
           column-gap: 28px;
   grid-row-gap: 24px;
@@ -59,6 +59,10 @@ body {
   background-color: white;
   -webkit-box-shadow: 50px 60px 36px -58px #cfcfcf;
           box-shadow: 50px 60px 36px -58px #cfcfcf;
+}
+
+.kira > .content-summary {
+  padding-top: 8px;
 }
 
 .jonathan {
@@ -115,7 +119,6 @@ p {
 }
 
 .content-summary {
-  padding-top: 2px;
   opacity: 70%;
 }
 
