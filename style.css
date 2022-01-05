@@ -123,8 +123,8 @@ p {
   font-size: 12px;
   text-align: center;
   margin-top: 10px;
-  font-family: "Lucida Console", "Courier New", monospace;
-  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 700;
 }
 
 .attribution a {
@@ -186,6 +186,7 @@ p {
   }
   .attribution {
     margin-top: 85rem;
+    margin-bottom: 2rem;
   }
   .content-summary {
     padding-top: 0px;
