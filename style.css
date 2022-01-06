@@ -107,8 +107,9 @@ img {
   width: 30px;
 }
 
-h2 {
+.heading {
   font-weight: 600;
+  font-size: 1.5em;
   line-height: 25px;
 }
 
