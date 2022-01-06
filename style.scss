@@ -5,27 +5,19 @@ body{
 
 .container{
     display: grid;
-    // grid-template-columns: auto auto auto auto auto;
     grid-template-columns: [first] 250px [line2] 250px [line3] 250px [col4-start] 268px [end];
     grid-template-rows: [row1-start] 287px [row1-end] 264px [third-line] ;
     column-gap: 28px;
     grid-row-gap: 24px;
     font-size: 13px;
     font-family: 'Barlow Semi Condensed';
-    justify-items: stretch;
     height: 600px;
     width: 1138px;
     margin: auto;
 }
 
  .daniel{
-    //  grid-column: 1/ span 3;
-    //  grid-row: 1;
-    //  grid-area: 50px;
-    //  justify-items: stretch;
-    //  justify-self: stretch;
      grid-column: 1/ span 2;
-    //  padding: 26px 20px 20px 30px;
      border-radius: 8px;
      background-color: hsl(263, 55%, 52%);
      color: white;
@@ -37,22 +29,16 @@ body{
     }
  .daniel img{
         box-shadow: 0px 0px 0px 2px hsl(263, 60%, 62%);
-
     }
 
  .jeanette{
-    //  grid-row: 2/4;
      border-radius: 8px;
-    //  padding:  26px 34px 20px 34px;
      background-color: hsl(0, 0%, 100%);
      box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
-
      }  
  .kira{
-    //  grid-column: 5;
-    //  grid-row: 1/ span 2;
-    grid-column: 4;
-    grid-row: 1/ span 2;
+     grid-column: 4;
+     grid-row: 1/ span 2;
      border-radius: 8px;
      padding:  20px 34px 20px 30px;
      background-color: hsl(0, 0%, 100%);
@@ -63,7 +49,6 @@ body{
  }
  .jonathan{
      border-radius: 8px;
-    //  padding:  26px 34px 20px 34px;
      background-color: hsl(217, 19%, 35%);
      color: white;
      box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
@@ -72,7 +57,6 @@ body{
  .patrick{
      grid-column: 2/ span 2;
      border-radius: 8px;
-    //  padding:  26px 34px 20px 34px;
      background-color:  hsl(219, 29%, 14%);
      color: white;
      box-shadow: 50px 60px 36px -58px hsl(0, 0%, 81%);
@@ -101,9 +85,7 @@ body{
  h2{
      font-weight: 600;
      line-height: 25px;
-    //  letter-spacing: 1px;
  }
-
 
  p{
      font-weight: 500;
@@ -111,7 +93,6 @@ body{
  }
 
  .content-summary{
-    //  padding-top: 2px;
      opacity: 70%;
  }
 
@@ -126,6 +107,7 @@ body{
      color: hsl(228, 45%, 44%); 
 }
 
+        //  For Mobile
 
 @media only screen and (max-width:800px) and (min-width:375px) {
     .container{
@@ -167,15 +149,11 @@ body{
      .kira>.content-summary{
          letter-spacing: 0.02em;
      }
-     .attribution{
-         margin-top: 83rem;
-         margin-bottom: 2rem;
-     }
-    //  .daniel,.jeanette,.jonathan,.patrick{
-    //   padding: 20px 30px 20px 30px;
-    //  }
      .content-summary{
          padding-top: 0px;
      }  
-
+     .attribution{
+        margin-top: 83rem;
+        margin-bottom: 2rem;
+    }
 }

@@ -15,7 +15,6 @@ body {
   grid-row-gap: 24px;
   font-size: 13px;
   font-family: 'Barlow Semi Condensed';
-  justify-items: stretch;
   height: 600px;
   width: 1138px;
   margin: auto;
@@ -187,12 +186,12 @@ p {
   .kira > .content-summary {
     letter-spacing: 0.02em;
   }
+  .content-summary {
+    padding-top: 0px;
+  }
   .attribution {
     margin-top: 83rem;
     margin-bottom: 2rem;
-  }
-  .content-summary {
-    padding-top: 0px;
   }
 }
 /*# sourceMappingURL=style.css.map */
